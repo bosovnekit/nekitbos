@@ -28,11 +28,11 @@ if not imgui or not samp_check or not effil_check or not monet_check then
         local libs_no_found = {}
         for k, v in pairs(libs) do
             if not v then
-                sampAddChatMessage('« Helper Lovli » {FFFFFF}Ó Âàñ îòñóòñòâóåò áèáëèîòåêà {7172ee}' .. k .. '{FFFFFF}. Áåç íå¸ ñêğèïò {7172ee}íå áóäåò {FFFFFF}ğàáîòàòü!', 0x7172ee)
+                sampAddChatMessage('Â« Helper Lovli Â» {FFFFFF}Ã“ Ã‚Ã Ã± Ã®Ã²Ã±Ã³Ã²Ã±Ã²Ã¢Ã³Ã¥Ã² Ã¡Ã¨Ã¡Ã«Ã¨Ã®Ã²Ã¥ÃªÃ  {7172ee}' .. k .. '{FFFFFF}. ÃÃ¥Ã§ Ã­Ã¥Â¸ Ã±ÃªÃ°Ã¨Ã¯Ã² {7172ee}Ã­Ã¥ Ã¡Ã³Ã¤Ã¥Ã² {FFFFFF}Ã°Ã Ã¡Ã®Ã²Ã Ã²Ã¼!', 0x7172ee)
                 table.insert(libs_no_found, k)
             end
         end
-        sampShowDialog(18364, '{7172ee}Helper Lovli', string.format('{FFFFFF}Â Âàøåé ñáîğêå {7172ee}íåòó íåîáõîäèìûõ áèáëèîòåê{FFFFFF} äëÿ ğàáîòû ñêğèïòà.\nÁåç íèõ îí {7172ee}íå áóäåò{FFFFFF} ğàáîòàòü!\n\nÁèáëèîòåêè, êîòîğûå Âàì íóæíû:\n{FFFFFF}- {7172ee}%s\n\n{FFFFFF}Âñå áèáëèîòåêè ìîæíî ñêà÷àòü â òåìå íà BlastHack: {7172ee}https://www.blast.hk/threads/190033\n{FFFFFF}Â ıòîé æå òåìå Âû {7172ee}íàéäåòå èíñòğóêöèş {FFFFFF}äëÿ èõ óñòàíîâêè.', table.concat(libs_no_found, '\n{FFFFFF}- {7172ee}')), 'Ïğèíÿòü', '', 0)
+        sampShowDialog(18364, '{7172ee}Helper Lovli', string.format('{FFFFFF}Ã‚ Ã‚Ã Ã¸Ã¥Ã© Ã±Ã¡Ã®Ã°ÃªÃ¥ {7172ee}Ã­Ã¥Ã²Ã³ Ã­Ã¥Ã®Ã¡ÃµÃ®Ã¤Ã¨Ã¬Ã»Ãµ Ã¡Ã¨Ã¡Ã«Ã¨Ã®Ã²Ã¥Ãª{FFFFFF} Ã¤Ã«Ã¿ Ã°Ã Ã¡Ã®Ã²Ã» Ã±ÃªÃ°Ã¨Ã¯Ã²Ã .\nÃÃ¥Ã§ Ã­Ã¨Ãµ Ã®Ã­ {7172ee}Ã­Ã¥ Ã¡Ã³Ã¤Ã¥Ã²{FFFFFF} Ã°Ã Ã¡Ã®Ã²Ã Ã²Ã¼!\n\nÃÃ¨Ã¡Ã«Ã¨Ã®Ã²Ã¥ÃªÃ¨, ÃªÃ®Ã²Ã®Ã°Ã»Ã¥ Ã‚Ã Ã¬ Ã­Ã³Ã¦Ã­Ã»:\n{FFFFFF}- {7172ee}%s\n\n{FFFFFF}Ã‚Ã±Ã¥ Ã¡Ã¨Ã¡Ã«Ã¨Ã®Ã²Ã¥ÃªÃ¨ Ã¬Ã®Ã¦Ã­Ã® Ã±ÃªÃ Ã·Ã Ã²Ã¼ Ã¢ Ã²Ã¥Ã¬Ã¥ Ã­Ã  BlastHack: {7172ee}https://www.blast.hk/threads/190033\n{FFFFFF}Ã‚ Ã½Ã²Ã®Ã© Ã¦Ã¥ Ã²Ã¥Ã¬Ã¥ Ã‚Ã» {7172ee}Ã­Ã Ã©Ã¤Ã¥Ã²Ã¥ Ã¨Ã­Ã±Ã²Ã°Ã³ÃªÃ¶Ã¨Ã¾ {FFFFFF}Ã¤Ã«Ã¿ Ã¨Ãµ Ã³Ã±Ã²Ã Ã­Ã®Ã¢ÃªÃ¨.', table.concat(libs_no_found, '\n{FFFFFF}- {7172ee}')), 'ÃÃ°Ã¨Ã­Ã¿Ã²Ã¼', '', 0)
         thisScript():unload()
     end
     return
@@ -62,15 +62,15 @@ local CMD_LIST = {
 }
 
 local CMD_NAMES = {
-    u8"Ïèñ",
-    u8"Äîìêğàò",
-    u8"Àäğåíàëèí",
-    u8"Âõîä â ìàøèíó",
-    u8"Òóìàí",
-    u8"Êóïèòü áèçíåñ",
-    u8"Ïîãîäà 1",
-    u8"Âğåìÿ 12",
-    u8"Ñòèëü"
+    u8"ÃÃ¨Ã±",
+    u8"Ã„Ã®Ã¬ÃªÃ°Ã Ã²",
+    u8"Ã€Ã¤Ã°Ã¥Ã­Ã Ã«Ã¨Ã­",
+    u8"Ã‚ÃµÃ®Ã¤ Ã¢ Ã¬Ã Ã¸Ã¨Ã­Ã³",
+    u8"Ã’Ã³Ã¬Ã Ã­",
+    u8"ÃŠÃ³Ã¯Ã¨Ã²Ã¼ Ã¡Ã¨Ã§Ã­Ã¥Ã±",
+    u8"ÃÃ®Ã£Ã®Ã¤Ã  1",
+    u8"Ã‚Ã°Ã¥Ã¬Ã¿ 12",
+    u8"Ã‘Ã²Ã¨Ã«Ã¼"
 }
 
 local KEY_LIST = {
@@ -126,33 +126,33 @@ local DEFAULT_CONFIG = {
     }
 }
 
--- Çàãğóæàåì êîíôèã ñ çàùèòîé
+-- Ã‡Ã Ã£Ã°Ã³Ã¦Ã Ã¥Ã¬ ÃªÃ®Ã­Ã´Ã¨Ã£ Ã± Ã§Ã Ã¹Ã¨Ã²Ã®Ã©
 local function loadConfig()
-    -- Åñëè ôàéë íå ñóùåñòâóåò, âîçâğàùàåì äåôîëòíûé
+    -- Ã…Ã±Ã«Ã¨ Ã´Ã Ã©Ã« Ã­Ã¥ Ã±Ã³Ã¹Ã¥Ã±Ã²Ã¢Ã³Ã¥Ã², Ã¢Ã®Ã§Ã¢Ã°Ã Ã¹Ã Ã¥Ã¬ Ã¤Ã¥Ã´Ã®Ã«Ã²Ã­Ã»Ã©
     if not file_exists(CONFIG_PATH) then
-        print("Helper Lovli: Ôàéë êîíôèãà íå íàéäåí, èñïîëüçóåòñÿ äåôîëòíûé")
+        print("Helper Lovli: Ã”Ã Ã©Ã« ÃªÃ®Ã­Ã´Ã¨Ã£Ã  Ã­Ã¥ Ã­Ã Ã©Ã¤Ã¥Ã­, Ã¨Ã±Ã¯Ã®Ã«Ã¼Ã§Ã³Ã¥Ã²Ã±Ã¿ Ã¤Ã¥Ã´Ã®Ã«Ã²Ã­Ã»Ã©")
         return DEFAULT_CONFIG
     end
     
-    -- Ïûòàåìñÿ çàãğóçèòü êîíôèã
+    -- ÃÃ»Ã²Ã Ã¥Ã¬Ã±Ã¿ Ã§Ã Ã£Ã°Ã³Ã§Ã¨Ã²Ã¼ ÃªÃ®Ã­Ã´Ã¨Ã£
     local success, loaded = pcall(inicfg.load, DEFAULT_CONFIG, CONFIG_PATH)
     if success and loaded then
-        -- Ïğîâåğÿåì, íå ïóñòîé ëè êîíôèã
+        -- ÃÃ°Ã®Ã¢Ã¥Ã°Ã¿Ã¥Ã¬, Ã­Ã¥ Ã¯Ã³Ã±Ã²Ã®Ã© Ã«Ã¨ ÃªÃ®Ã­Ã´Ã¨Ã£
         if next(loaded) == nil then
-            print("Helper Lovli: Êîíôèã ïóñò, èñïîëüçóåòñÿ äåôîëòíûé")
+            print("Helper Lovli: ÃŠÃ®Ã­Ã´Ã¨Ã£ Ã¯Ã³Ã±Ã², Ã¨Ã±Ã¯Ã®Ã«Ã¼Ã§Ã³Ã¥Ã²Ã±Ã¿ Ã¤Ã¥Ã´Ã®Ã«Ã²Ã­Ã»Ã©")
             return DEFAULT_CONFIG
         end
-        print("Helper Lovli: Êîíôèã óñïåøíî çàãğóæåí")
+        print("Helper Lovli: ÃŠÃ®Ã­Ã´Ã¨Ã£ Ã³Ã±Ã¯Ã¥Ã¸Ã­Ã® Ã§Ã Ã£Ã°Ã³Ã¦Ã¥Ã­")
         return loaded
     else
-        print("Helper Lovli: Îøèáêà çàãğóçêè êîíôèãà, èñïîëüçóåòñÿ äåôîëòíûé")
+        print("Helper Lovli: ÃÃ¸Ã¨Ã¡ÃªÃ  Ã§Ã Ã£Ã°Ã³Ã§ÃªÃ¨ ÃªÃ®Ã­Ã´Ã¨Ã£Ã , Ã¨Ã±Ã¯Ã®Ã«Ã¼Ã§Ã³Ã¥Ã²Ã±Ã¿ Ã¤Ã¥Ã´Ã®Ã«Ã²Ã­Ã»Ã©")
         return DEFAULT_CONFIG
     end
 end
 
 local ini = loadConfig()
 
--- Ïàğñèì áèíäåğû èç INI
+-- ÃÃ Ã°Ã±Ã¨Ã¬ Ã¡Ã¨Ã­Ã¤Ã¥Ã°Ã» Ã¨Ã§ INI
 local function parseBinders()
     local binders = {}
     if ini and ini.binders then
@@ -170,7 +170,7 @@ local function parseBinders()
     return binders
 end
 
--- Íàñòğîéêè runtime ñ çàùèòîé îò nil
+-- ÃÃ Ã±Ã²Ã°Ã®Ã©ÃªÃ¨ runtime Ã± Ã§Ã Ã¹Ã¨Ã²Ã®Ã© Ã®Ã² nil
 local settings = {
     scriptColor = tonumber('0x' .. (ini.script and ini.script.scriptColor or "f57c00")) or 0xf57c00,
     activationCommand = (ini.script and ini.script.activationCommand) or "helper",
@@ -430,11 +430,11 @@ function sms(text)
     if type(text) ~= 'string' then text = tostring(text) end
     local color_chat = string.format("%06X", settings.scriptColor % 0x1000000)
     text = text:gsub('{mc}', '{' .. color_chat .. '}'):gsub('{%-1}', '{FFFFFF}')
-    sampAddChatMessage('« Helper Lovli » {FFFFFF}' .. text, tonumber('0x' .. color_chat))
+    sampAddChatMessage('Â« Helper Lovli Â» {FFFFFF}' .. text, tonumber('0x' .. color_chat))
 end
 
 function saveConfig()
-    -- Óáåæäàåìñÿ, ÷òî ini ñóùåñòâóåò
+    -- Ã“Ã¡Ã¥Ã¦Ã¤Ã Ã¥Ã¬Ã±Ã¿, Ã·Ã²Ã® ini Ã±Ã³Ã¹Ã¥Ã±Ã²Ã¢Ã³Ã¥Ã²
     if not ini then
         ini = DEFAULT_CONFIG
     end
@@ -443,7 +443,7 @@ function saveConfig()
     local g = math.floor(scriptColor[1] * 255 + 0.5)
     local b = math.floor(scriptColor[2] * 255 + 0.5)
     
-    -- Óáåæäàåìñÿ, ÷òî âñå ñåêöèè ñóùåñòâóşò
+    -- Ã“Ã¡Ã¥Ã¦Ã¤Ã Ã¥Ã¬Ã±Ã¿, Ã·Ã²Ã® Ã¢Ã±Ã¥ Ã±Ã¥ÃªÃ¶Ã¨Ã¨ Ã±Ã³Ã¹Ã¥Ã±Ã²Ã¢Ã³Ã¾Ã²
     ini.script = ini.script or {}
     ini.cef = ini.cef or {}
     ini.trening = ini.trening or {}
@@ -492,9 +492,9 @@ function saveConfig()
 
     local success, err = pcall(inicfg.save, ini, CONFIG_PATH)
     if not success then
-        print("Helper Lovli: Îøèáêà ñîõğàíåíèÿ êîíôèãà - " .. tostring(err))
+        print("Helper Lovli: ÃÃ¸Ã¨Ã¡ÃªÃ  Ã±Ã®ÃµÃ°Ã Ã­Ã¥Ã­Ã¨Ã¿ ÃªÃ®Ã­Ã´Ã¨Ã£Ã  - " .. tostring(err))
     else
-        print("Helper Lovli: Êîíôèã ñîõğàíåí")
+        print("Helper Lovli: ÃŠÃ®Ã­Ã´Ã¨Ã£ Ã±Ã®ÃµÃ°Ã Ã­Ã¥Ã­")
     end
 end
 
@@ -725,7 +725,7 @@ function showCaptcha()
             GenerateTextDraw(0, 240 + nextPos, 130)
         end
     end
-    sampShowDialog(8813, '{F89168}Òğåíèğîâêà êàï÷è', '{FFFFFF}Ââåäèòå {C6FB4A}5{FFFFFF} ñèìâîëîâ, êîòîğûå\nâèäíî íà {C6FB4A}âàøåì{FFFFFF} ıêğàíå.', 'Ïğèíÿòü', 'Îòìåíà', 1)
+    sampShowDialog(8813, '{F89168}Ã’Ã°Ã¥Ã­Ã¨Ã°Ã®Ã¢ÃªÃ  ÃªÃ Ã¯Ã·Ã¨', '{FFFFFF}Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ {C6FB4A}5{FFFFFF} Ã±Ã¨Ã¬Ã¢Ã®Ã«Ã®Ã¢, ÃªÃ®Ã²Ã®Ã°Ã»Ã¥\nÃ¢Ã¨Ã¤Ã­Ã® Ã­Ã  {C6FB4A}Ã¢Ã Ã¸Ã¥Ã¬{FFFFFF} Ã½ÃªÃ°Ã Ã­Ã¥.', 'ÃÃ°Ã¨Ã­Ã¿Ã²Ã¼', 'ÃÃ²Ã¬Ã¥Ã­Ã ', 1)
     captime = os.clock()
     trening_active = true
     captcha_dialog_open = true
@@ -761,44 +761,54 @@ function visualCEF(str, is_encoded)
 end
 
 function getHouseName(id)
-    if id >= 200 and id <= 246 then return "Âàéí-Âóä"
-    elseif id >= 0 and id <= 140 then return "Ãåòòî"
-    elseif id >= 142 and id <= 155 then return "Ïîä Âàéí-Âóäîì Äîìà"
-    elseif id >= 1023 and id <= 1037 then return "Ïîëîìèíî Õèëëñ Äîìà"
-    elseif id == 541 then return "Êğóòàÿ Îñîáà"
-    elseif id == 495 or id == 124 or id == 491 or id == 307 or id == 413 or id == 624 or id == 255 then return "Ãğèí-Òàóí"
-    elseif id >= 850 and id <= 1300 then return "Ñàí-Ôèåğî"
+    if id >= 200 and id <= 246 then return "Ã‚Ã Ã©Ã­-Ã‚Ã³Ã¤"
+    elseif id >= 0 and id <= 140 then return "ÃƒÃ¥Ã²Ã²Ã®"
+    elseif id >= 142 and id <= 155 then return "ÃÃ®Ã¤ Ã‚Ã Ã©Ã­-Ã‚Ã³Ã¤Ã®Ã¬ Ã„Ã®Ã¬Ã "
+    elseif id >= 1023 and id <= 1037 then return "ÃÃ®Ã«Ã®Ã¬Ã¨Ã­Ã® Ã•Ã¨Ã«Ã«Ã± Ã„Ã®Ã¬Ã "
+    elseif id == 541 then return "ÃŠÃ°Ã³Ã²Ã Ã¿ ÃÃ±Ã®Ã¡Ã "
+    elseif id == 495 or id == 124 or id == 491 or id == 307 or id == 413 or id == 624 or id == 255 then return "ÃƒÃ°Ã¨Ã­-Ã’Ã Ã³Ã­"
+    elseif id >= 850 and id <= 1300 then return "Ã‘Ã Ã­-Ã”Ã¨Ã¥Ã°Ã®"
     end
     return nil
 end
 
 function getBusinessName(id)
-    if id >= 360 and id <= 397 then return "Ïàğêî Çàâîä"
-    elseif id >= 398 and id <= 408 then return "Ïàğêî Àığî Ëñ"
-    elseif id >= 409 and id <= 410 then return "Ïàğêî Äá ËÑ"
-    elseif id >= 443 and id <= 450 then return "Âîäíûå ïàğêîâêè"
+    if id >= 360 and id <= 397 then return "ÃÃ Ã°ÃªÃ® Ã‡Ã Ã¢Ã®Ã¤"
+    elseif id >= 398 and id <= 408 then return "ÃÃ Ã°ÃªÃ® Ã€Ã½Ã°Ã® Ã‹Ã±"
+    elseif id >= 409 and id <= 410 then return "ÃÃ Ã°ÃªÃ® Ã„Ã¡ Ã‹Ã‘"
+    elseif id >= 443 and id <= 450 then return "Ã‚Ã®Ã¤Ã­Ã»Ã¥ Ã¯Ã Ã°ÃªÃ®Ã¢ÃªÃ¨"
     end
     return nil
 end
+
+-- ============= Ã’Ã…Ã‘Ã’ÃÃ‚Ã€ÃŸ Ã”Ã“ÃÃŠÃ–ÃˆÃŸ Ã„Ã‹ÃŸ ÃÃÃÃ‚Ã…ÃÃŠÃˆ CEF =============
+
+function testCEF()
+    show_arz_notify('info', 'Ã’Ã¥Ã±Ã² CEF', 'Ã…Ã±Ã«Ã¨ Ã¢Ã» Ã½Ã²Ã® Ã¢Ã¨Ã¤Ã¨Ã²Ã¥ - CEF Ã°Ã Ã¡Ã®Ã²Ã Ã¥Ã²!', 5000)
+    sms('ÃÃ²Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­ Ã²Ã¥Ã±Ã²Ã®Ã¢Ã»Ã© CEF Ã­Ã®Ã²Ã¨Ã´Ã Ã©')
+end
+
+-- ÃÃ¥Ã£Ã¨Ã±Ã²Ã°Ã¨Ã°Ã³Ã¥Ã¬ Ã²Ã¥Ã±Ã²Ã®Ã¢Ã³Ã¾ ÃªÃ®Ã¬Ã Ã­Ã¤Ã³
+sampRegisterChatCommand('testcef', testCEF)
 
 function cmd_marker()
     if not marker_enabled[0] then return end
     local x, y, z = getCharCoordinates(PLAYER_PED)
     if marker_defaultMode[0] == MODE_TRACER then
         if isCharInAnyCar(PLAYER_PED) then
-            sms('Íåëüçÿ óñòàíîâèòü òğåéñåğ â ìàøèíå')
+            sms('ÃÃ¥Ã«Ã¼Ã§Ã¿ Ã³Ã±Ã²Ã Ã­Ã®Ã¢Ã¨Ã²Ã¼ Ã²Ã°Ã¥Ã©Ã±Ã¥Ã° Ã¢ Ã¬Ã Ã¸Ã¨Ã­Ã¥')
             return
         end
         tracer.targetX, tracer.targetY, tracer.targetZ = x, y, z
         tracer.isSet = true
         currentMode = MODE_TRACER
-        sms('Òğåéñåğ óñòàíîâëåí')
+        sms('Ã’Ã°Ã¥Ã©Ã±Ã¥Ã° Ã³Ã±Ã²Ã Ã­Ã®Ã¢Ã«Ã¥Ã­')
     elseif marker_defaultMode[0] == MODE_MARKER then
         marker.x, marker.y, marker.z = x, y, z
         marker.interior = getActiveInterior()
         marker.isSet = true
         currentMode = MODE_MARKER
-        sms('Ìàğêåğ óñòàíîâëåí')
+        sms('ÃŒÃ Ã°ÃªÃ¥Ã° Ã³Ã±Ã²Ã Ã­Ã®Ã¢Ã«Ã¥Ã­')
     end
 end
 
@@ -806,7 +816,7 @@ function cmd_delmarker()
     tracer.isSet = false
     marker.isSet = false
     currentMode = nil
-    sms('Ìàğêåğ óäàëåí')
+    sms('ÃŒÃ Ã°ÃªÃ¥Ã° Ã³Ã¤Ã Ã«Ã¥Ã­')
 end
 
 function updateTracerMode()
@@ -828,7 +838,7 @@ function updateTracerMode()
         
         if getDistanceBetweenCoords3d(myX, myY, myZ, tracer.targetX, tracer.targetY, tracer.targetZ) < 5.0 then
             cmd_delmarker()
-            sms('Âû äîñòèãëè öåëè!')
+            sms('Ã‚Ã» Ã¤Ã®Ã±Ã²Ã¨Ã£Ã«Ã¨ Ã¶Ã¥Ã«Ã¨!')
         end
     end)
 end
@@ -897,7 +907,7 @@ function drawMarker(px, py, pz, dist)
     
     local tx, ty = convert3DCoordsToScreen(marker.x, marker.y, marker.z + 1.5)
     if tx and ty and tx >= -50 and tx <= screenW + 50 and ty >= -50 and ty <= screenH + 50 then
-        renderFontDrawText(render_font, string.format("%.1f ì", dist), tx - 25, ty - 20, 0xFFFFFFFF)
+        renderFontDrawText(render_font, string.format("%.1f Ã¬", dist), tx - 25, ty - 20, 0xFFFFFFFF)
     end
     
     local isPlayerVisible, psx, psy = isPointOnScreen(px, py, pz + 0.5)
@@ -915,7 +925,7 @@ function updateActivationCommand()
             imgui.Process = window[0]
         end)
         settings.activationCommand = cmd
-        sms('Êîìàíäà àêòèâàöèè èçìåíåíà íà {mc}/' .. cmd)
+        sms('ÃŠÃ®Ã¬Ã Ã­Ã¤Ã  Ã ÃªÃ²Ã¨Ã¢Ã Ã¶Ã¨Ã¨ Ã¨Ã§Ã¬Ã¥Ã­Ã¥Ã­Ã  Ã­Ã  {mc}/' .. cmd)
     end
 end
 
@@ -931,13 +941,13 @@ function onWindowMessage(msg, wparam, lparam)
             if waiting_for_key_type == "new" then
                 table.insert(binders, {key = key, cmd = CMD_LIST[new_cmd_idx[0] + 1], enabled = true})
                 saveConfig()
-                sms('Áèíäåğ äîáàâëåí: ' .. key .. ' | ' .. tostring(CMD_NAMES[new_cmd_idx[0] + 1]))
+                sms('ÃÃ¨Ã­Ã¤Ã¥Ã° Ã¤Ã®Ã¡Ã Ã¢Ã«Ã¥Ã­: ' .. key .. ' | ' .. tostring(CMD_NAMES[new_cmd_idx[0] + 1]))
             elseif waiting_for_key_type == "edit" and waiting_for_key_index then
                 local binder = binders[waiting_for_key_index]
                 if binder then
                     binder.key = key
                     saveConfig()
-                    sms('Êëàâèøà èçìåíåíà íà ' .. key)
+                    sms('ÃŠÃ«Ã Ã¢Ã¨Ã¸Ã  Ã¨Ã§Ã¬Ã¥Ã­Ã¥Ã­Ã  Ã­Ã  ' .. key)
                 end
             end
             waiting_for_key = false
@@ -952,28 +962,36 @@ function onShowDialog(dlgId, style, title, button1, button2, text)
     if not title or not text then return end
     
     local nocolor = text:gsub("{......}", "")
-    if title:find('Ğàçğåøåíèå íà ïîêóïêó èìóùåñòâà') then
-        local houseId = nocolor:match('äîì %((%d+)%)')
-        local bizId = nocolor:match('áèçíåñ %((%d+)%)')
+    
+    -- ÃÃ°Ã®Ã¢Ã¥Ã°Ã¿Ã¥Ã¬ Ã¤Ã¨Ã Ã«Ã®Ã£ Ã¯Ã®ÃªÃ³Ã¯ÃªÃ¨ Ã¨Ã¬Ã³Ã¹Ã¥Ã±Ã²Ã¢Ã 
+    if title and (title:find('ÃÃ Ã§Ã°Ã¥Ã¸Ã¥Ã­Ã¨Ã¥ Ã­Ã  Ã¯Ã®ÃªÃ³Ã¯ÃªÃ³ Ã¨Ã¬Ã³Ã¹Ã¥Ã±Ã²Ã¢Ã ') or title:find('ÃÃ Ã§Ã°Ã¥Ã¸Ã¥Ã­Ã¨Ã¥ Ã­Ã  Ã¯Ã®ÃªÃ³Ã¯ÃªÃ³')) then
+        local houseId = nocolor:match('Ã¤Ã®Ã¬ %((%d+)%)')
+        local bizId = nocolor:match('Ã¡Ã¨Ã§Ã­Ã¥Ã± %((%d+)%)')
         
         if houseId then
             local name = getHouseName(tonumber(houseId)) or ""
             if settings.cef.houseEnabled then
-                show_arz_notify('info', 'Äîì', 'ID: ' .. houseId .. ' ' .. name, settings.cef.timeout)
-                sms('{info}Äîì: {white}ID: ' .. houseId .. ' ' .. name)
+                show_arz_notify('info', 'Ã„Ã®Ã¬', 'ID: ' .. houseId .. ' ' .. name, settings.cef.timeout)
+                sms('{info}Ã„Ã®Ã¬: {white}ID: ' .. houseId .. ' ' .. name)
             end
         end
         
         if bizId then
             local name = getBusinessName(tonumber(bizId)) or ""
             if settings.cef.businessEnabled then
-                show_arz_notify('info', 'Áèçíåñ', 'ID: ' .. bizId .. ' ' .. name, settings.cef.timeout)
-                sms('{info}Áèçíåñ: {white}ID: ' .. bizId .. ' ' .. name)
+                show_arz_notify('info', 'ÃÃ¨Ã§Ã­Ã¥Ã±', 'ID: ' .. bizId .. ' ' .. name, settings.cef.timeout)
+                sms('{info}ÃÃ¨Ã§Ã­Ã¥Ã±: {white}ID: ' .. bizId .. ' ' .. name)
             end
         end
     end
 end
 
+-- ÃÃ¥Ã£Ã¨Ã±Ã²Ã°Ã¨Ã°Ã³Ã¥Ã¬ Ã®Ã¡Ã°Ã Ã¡Ã®Ã²Ã·Ã¨Ãª Ã¤Ã¨Ã Ã«Ã®Ã£Ã®Ã¢ Ã·Ã¥Ã°Ã¥Ã§ samp.events
+if samp_check then
+    function samp.onShowDialog(dlgId, style, title, button1, button2, text)
+        onShowDialog(dlgId, style, title, button1, button2, text)
+    end
+end
 function main()
     if not isSampfuncsLoaded() or not isSampLoaded() then return end
     while not isSampAvailable() do wait(100) end
@@ -1012,12 +1030,12 @@ function main()
     sampRegisterChatCommand('marker', function() cmd_marker() end)
     sampRegisterChatCommand('delmarker', function() cmd_delmarker() end)
     sampRegisterChatCommand('adr', function() sampProcessChatInput('/adrenaline') end)
-    sampRegisterChatCommand('ontr', function() trening_enabled[0] = not trening_enabled[0]; saveConfig(); sms('Òğåíèíã ' .. (trening_enabled[0] and '{mc}âêëş÷åí' or 'âûêëş÷åí')) end)
-    sampRegisterChatCommand('captcha', function() trening_enabled[0] = not trening_enabled[0]; saveConfig(); sms('Òğåíèíã ' .. (trening_enabled[0] and '{mc}âêëş÷åí' or 'âûêëş÷åí')) end)
+    sampRegisterChatCommand('ontr', function() trening_enabled[0] = not trening_enabled[0]; saveConfig(); sms('Ã’Ã°Ã¥Ã­Ã¨Ã­Ã£ ' .. (trening_enabled[0] and '{mc}Ã¢ÃªÃ«Ã¾Ã·Ã¥Ã­' or 'Ã¢Ã»ÃªÃ«Ã¾Ã·Ã¥Ã­')) end)
+    sampRegisterChatCommand('captcha', function() trening_enabled[0] = not trening_enabled[0]; saveConfig(); sms('Ã’Ã°Ã¥Ã­Ã¨Ã­Ã£ ' .. (trening_enabled[0] and '{mc}Ã¢ÃªÃ«Ã¾Ã·Ã¥Ã­' or 'Ã¢Ã»ÃªÃ«Ã¾Ã·Ã¥Ã­')) end)
 
-    sms('{mc}Helper Lovli{ffffff} çàãğóæåí! Àâòîğû: {mc}bossov{ffffff} & {mc}slardar')
-    sms('Àêòèâàöèÿ ìåíş: {mc}/' .. settings.activationCommand)
-    sms('Çàãğóæåíî áèíäåğîâ: {mc}' .. #binders)
+    sms('{mc}Helper Lovli{ffffff} Ã§Ã Ã£Ã°Ã³Ã¦Ã¥Ã­! Ã€Ã¢Ã²Ã®Ã°Ã»: {mc}bossov{ffffff} & {mc}slardar')
+    sms('Ã€ÃªÃ²Ã¨Ã¢Ã Ã¶Ã¨Ã¿ Ã¬Ã¥Ã­Ã¾: {mc}/' .. settings.activationCommand)
+    sms('Ã‡Ã Ã£Ã°Ã³Ã¦Ã¥Ã­Ã® Ã¡Ã¨Ã­Ã¤Ã¥Ã°Ã®Ã¢: {mc}' .. #binders)
 
     imgui.OnFrame(
         function() return window[0] and not isPauseMenuActive() and not sampIsScoreboardOpen() end,
@@ -1053,13 +1071,13 @@ function main()
                 imgui.BeginGroup()
                 imgui.PushFont(fonts[18])
                 local menu_items = {
-                    u8"Îñíîâíîå",
-                    u8"Áèíäåğû",
-                    u8"Òğåíèíã",
-                    u8"Ìàğêåğ",
-                    u8"Òàéìåğ",
-                    u8"CEF óâåäîìëåíèÿ",
-                    u8"Èíôî"
+                    u8"ÃÃ±Ã­Ã®Ã¢Ã­Ã®Ã¥",
+                    u8"ÃÃ¨Ã­Ã¤Ã¥Ã°Ã»",
+                    u8"Ã’Ã°Ã¥Ã­Ã¨Ã­Ã£",
+                    u8"ÃŒÃ Ã°ÃªÃ¥Ã°",
+                    u8"Ã’Ã Ã©Ã¬Ã¥Ã°",
+                    u8"CEF Ã³Ã¢Ã¥Ã¤Ã®Ã¬Ã«Ã¥Ã­Ã¨Ã¿",
+                    u8"ÃˆÃ­Ã´Ã®"
                 }
                 for i, item in ipairs(menu_items) do
                     if imgui.ActiveButton(item, imgui.ImVec2(200, 45)) then
@@ -1089,7 +1107,7 @@ function main()
 
                 if menu[0] == 1 then
                     imgui.PushFont(fonts[18])
-                    imgui.FText(u8"Öâåò ñêğèïòà:", 18)
+                    imgui.FText(u8"Ã–Ã¢Ã¥Ã² Ã±ÃªÃ°Ã¨Ã¯Ã²Ã :", 18)
                     imgui.SameLine()
                     imgui.PushItemWidth(200)
                     if imgui.ColorEdit3('##script_color', scriptColor) then
@@ -1100,7 +1118,7 @@ function main()
                     
                     imgui.Dummy(imgui.ImVec2(0, 10))
                     
-                    imgui.FText(u8"Êîìàíäà àêòèâàöèè:", 18)
+                    imgui.FText(u8"ÃŠÃ®Ã¬Ã Ã­Ã¤Ã  Ã ÃªÃ²Ã¨Ã¢Ã Ã¶Ã¨Ã¨:", 18)
                     imgui.SameLine()
                     imgui.PushItemWidth(150)
                     imgui.Text("/")
@@ -1108,16 +1126,16 @@ function main()
                     if imgui.InputText('##activation_cmd', activation_command, ffi.sizeof(activation_command)) then end
                     imgui.PopItemWidth()
                     imgui.SameLine()
-                    if imgui.ActiveButton(u8" Ïğèìåíèòü", imgui.ImVec2(100, 25)) then
+                    if imgui.ActiveButton(u8" ÃÃ°Ã¨Ã¬Ã¥Ã­Ã¨Ã²Ã¼", imgui.ImVec2(100, 25)) then
                         updateActivationCommand()
                         saveConfig()
                     end
                     
                     imgui.Dummy(imgui.ImVec2(0, 10))
                     imgui.SetCursorPosX(100)
-                    if imgui.ActiveButton(u8" Ñîõğàíèòü âñå íàñòğîéêè", imgui.ImVec2(250, 30)) then
+                    if imgui.ActiveButton(u8" Ã‘Ã®ÃµÃ°Ã Ã­Ã¨Ã²Ã¼ Ã¢Ã±Ã¥ Ã­Ã Ã±Ã²Ã°Ã®Ã©ÃªÃ¨", imgui.ImVec2(250, 30)) then
                         saveConfig()
-                        sms('Íàñòğîéêè ñîõğàíåíû')
+                        sms('ÃÃ Ã±Ã²Ã°Ã®Ã©ÃªÃ¨ Ã±Ã®ÃµÃ°Ã Ã­Ã¥Ã­Ã»')
                     end
                     imgui.PopFont()
 
@@ -1131,7 +1149,7 @@ function main()
                         imgui.SameLine(150)
                         
                         local bool = imgui.new.bool(binder.enabled)
-                        if imgui.Checkbox(u8"Âêë##"..i, bool) then
+                        if imgui.Checkbox(u8"Ã‚ÃªÃ«##"..i, bool) then
                             binder.enabled = bool[0]
                             saveConfig()
                         end
@@ -1170,16 +1188,16 @@ function main()
                     imgui.EndColorChild()
                     
                     imgui.Separator()
-                    imgui.Text(u8"Íîâûé áèíäåğ:")
+                    imgui.Text(u8"ÃÃ®Ã¢Ã»Ã© Ã¡Ã¨Ã­Ã¤Ã¥Ã°:")
                     
                     local window_width = imgui.GetWindowWidth()
-                    local text_width = imgui.CalcTextSize(u8"[ÍÀÆÌÈÒÅ ÊËÀÂÈØÓ]").x
+                    local text_width = imgui.CalcTextSize(u8"[ÃÃ€Ã†ÃŒÃˆÃ’Ã… ÃŠÃ‹Ã€Ã‚ÃˆÃ˜Ã“]").x
                     imgui.SetCursorPosX((window_width - text_width) / 2)
                     
                     if waiting_for_key and waiting_for_key_type == "new" then
-                        imgui.TextColored(convertDecimalToRGBA(palette.accent3.color_500), u8"[ÍÀÆÌÈÒÅ ÊËÀÂÈØÓ]")
+                        imgui.TextColored(convertDecimalToRGBA(palette.accent3.color_500), u8"[ÃÃ€Ã†ÃŒÃˆÃ’Ã… ÃŠÃ‹Ã€Ã‚ÃˆÃ˜Ã“]")
                     else
-                        imgui.TextDisabled(u8"[ÎÆÈÄÀÍÈÅ ÊËÀÂÈØÈ]")
+                        imgui.TextDisabled(u8"[ÃÃ†ÃˆÃ„Ã€ÃÃˆÃ… ÃŠÃ‹Ã€Ã‚ÃˆÃ˜Ãˆ]")
                     end
 
                     imgui.Dummy(imgui.ImVec2(0, 5))
@@ -1198,10 +1216,10 @@ function main()
 
                     imgui.SameLine()
                     
-                    if imgui.ActiveButton(u8" Äîáàâèòü", imgui.ImVec2(140, 25)) then
+                    if imgui.ActiveButton(u8" Ã„Ã®Ã¡Ã Ã¢Ã¨Ã²Ã¼", imgui.ImVec2(140, 25)) then
                         waiting_for_key = true
                         waiting_for_key_type = "new"
-                        sms('Íàæìèòå êëàâèøó äëÿ íîâîãî áèíäåğà...')
+                        sms('ÃÃ Ã¦Ã¬Ã¨Ã²Ã¥ ÃªÃ«Ã Ã¢Ã¨Ã¸Ã³ Ã¤Ã«Ã¿ Ã­Ã®Ã¢Ã®Ã£Ã® Ã¡Ã¨Ã­Ã¤Ã¥Ã°Ã ...')
                     end
 
                     imgui.PopStyleColor(2)
@@ -1210,23 +1228,23 @@ function main()
                 elseif menu[0] == 3 then
                     imgui.PushFont(fonts[18])
                     imgui.SetCursorPosX(100)
-                    imgui.FText(u8"Âêëş÷èòü òğåíèíã:", 18)
+                    imgui.FText(u8"Ã‚ÃªÃ«Ã¾Ã·Ã¨Ã²Ã¼ Ã²Ã°Ã¥Ã­Ã¨Ã­Ã£:", 18)
                     imgui.SameLine(300)
                     if imgui.Checkbox('##trening_enabled', trening_enabled) then saveConfig() end
                     imgui.Dummy(imgui.ImVec2(0, 10))
                     imgui.SetCursorPosX(100)
-                    imgui.FText(u8"Êëàâèøà àêòèâàöèè:", 18)
+                    imgui.FText(u8"ÃŠÃ«Ã Ã¢Ã¨Ã¸Ã  Ã ÃªÃ²Ã¨Ã¢Ã Ã¶Ã¨Ã¨:", 18)
                     imgui.SameLine(300)
                     imgui.PushItemWidth(100)
                     if imgui.InputText('##trening_key', trening_key, ffi.sizeof(trening_key)) then saveConfig() end
                     imgui.PopItemWidth()
                     imgui.Dummy(imgui.ImVec2(0, 10))
                     imgui.SetCursorPosX(100)
-                    if imgui.ActiveButton(u8" Îòêğûòü êàï÷ó ñåé÷àñ", imgui.ImVec2(250, 30)) then
+                    if imgui.ActiveButton(u8" ÃÃ²ÃªÃ°Ã»Ã²Ã¼ ÃªÃ Ã¯Ã·Ã³ Ã±Ã¥Ã©Ã·Ã Ã±", imgui.ImVec2(250, 30)) then
                         showCaptcha()
                     end
                     imgui.SameLine()
-                    if imgui.ActiveButton(u8" Î÷èñòèòü", imgui.ImVec2(150, 30)) then
+                    if imgui.ActiveButton(u8" ÃÃ·Ã¨Ã±Ã²Ã¨Ã²Ã¼", imgui.ImVec2(150, 30)) then
                         removeTextdraws()
                     end
                     imgui.PopFont()
@@ -1234,70 +1252,70 @@ function main()
                 elseif menu[0] == 4 then
                     imgui.PushFont(fonts[18])
                     imgui.SetCursorPosX(100)
-                    imgui.FText(u8"Âêëş÷èòü ìàğêåğ:", 18)
+                    imgui.FText(u8"Ã‚ÃªÃ«Ã¾Ã·Ã¨Ã²Ã¼ Ã¬Ã Ã°ÃªÃ¥Ã°:", 18)
                     imgui.SameLine(300)
                     if imgui.Checkbox('##marker_enabled', marker_enabled) then saveConfig() end
                     imgui.Dummy(imgui.ImVec2(0, 10))
                     imgui.SetCursorPosX(100)
-                    imgui.FText(u8"Ğåæèì ïî óìîë÷àíèş:", 18)
+                    imgui.FText(u8"ÃÃ¥Ã¦Ã¨Ã¬ Ã¯Ã® Ã³Ã¬Ã®Ã«Ã·Ã Ã­Ã¨Ã¾:", 18)
                     imgui.SameLine(300)
-                    local mode_names = { u8"Òğåéñåğ", u8"Ìàğêåğ" }
+                    local mode_names = { u8"Ã’Ã°Ã¥Ã©Ã±Ã¥Ã°", u8"ÃŒÃ Ã°ÃªÃ¥Ã°" }
                     if imgui.ActiveButton(mode_names[marker_defaultMode[0]], imgui.ImVec2(150, 25)) then
                         marker_defaultMode[0] = (marker_defaultMode[0] % 2) + 1
                         saveConfig()
                     end
                     imgui.Dummy(imgui.ImVec2(0, 20))
                     imgui.SetCursorPosX(100)
-                    imgui.FText(u8"{TextDisabled}Êîìàíäû:", 18)
+                    imgui.FText(u8"{TextDisabled}ÃŠÃ®Ã¬Ã Ã­Ã¤Ã»:", 18)
                     imgui.SetCursorPosX(120)
-                    imgui.FText(u8"{ButtonActive}/marker{Text} - ïîñòàâèòü ìàğêåğ", 18)
+                    imgui.FText(u8"{ButtonActive}/marker{Text} - Ã¯Ã®Ã±Ã²Ã Ã¢Ã¨Ã²Ã¼ Ã¬Ã Ã°ÃªÃ¥Ã°", 18)
                     imgui.SetCursorPosX(120)
-                    imgui.FText(u8"{ButtonActive}/delmarker{Text} - óäàëèòü ìàğêåğ", 18)
+                    imgui.FText(u8"{ButtonActive}/delmarker{Text} - Ã³Ã¤Ã Ã«Ã¨Ã²Ã¼ Ã¬Ã Ã°ÃªÃ¥Ã°", 18)
                     imgui.PopFont()
 
                 elseif menu[0] == 5 then
                     imgui.PushFont(fonts[18])
                     imgui.SetCursorPosX(100)
-                    imgui.FText(u8"Âêëş÷èòü òàéìåğ:", 18)
+                    imgui.FText(u8"Ã‚ÃªÃ«Ã¾Ã·Ã¨Ã²Ã¼ Ã²Ã Ã©Ã¬Ã¥Ã°:", 18)
                     imgui.SameLine(300)
                     if imgui.Checkbox('##timer_enabled', timer_enabled) then saveConfig() end
                     imgui.Dummy(imgui.ImVec2(0, 20))
                     imgui.SetCursorPosX(100)
-                    imgui.FText(u8"Òàéìåğ ïîêàçûâàåò âğåìÿ,", 18)
+                    imgui.FText(u8"Ã’Ã Ã©Ã¬Ã¥Ã° Ã¯Ã®ÃªÃ Ã§Ã»Ã¢Ã Ã¥Ã² Ã¢Ã°Ã¥Ã¬Ã¿,", 18)
                     imgui.SetCursorPosX(100)
-                    imgui.FText(u8"çà êîòîğîå âû ââåëè êàï÷ó", 18)
+                    imgui.FText(u8"Ã§Ã  ÃªÃ®Ã²Ã®Ã°Ã®Ã¥ Ã¢Ã» Ã¢Ã¢Ã¥Ã«Ã¨ ÃªÃ Ã¯Ã·Ã³", 18)
                     imgui.PopFont()
 
                 elseif menu[0] == 6 then
                     imgui.PushFont(fonts[18])
                     imgui.SetCursorPosX(100)
-                    imgui.FText(u8"Âğåìÿ ïîêàçà óâåäîìëåíèé:", 18)
+                    imgui.FText(u8"Ã‚Ã°Ã¥Ã¬Ã¿ Ã¯Ã®ÃªÃ Ã§Ã  Ã³Ã¢Ã¥Ã¤Ã®Ã¬Ã«Ã¥Ã­Ã¨Ã©:", 18)
                     imgui.SameLine(300)
                     imgui.PushItemWidth(100)
-                    if imgui.SliderInt('##cef_timeout', cef_timeout, 1, 20, u8'%d ñåê') then
+                    if imgui.SliderInt('##cef_timeout', cef_timeout, 1, 20, u8'%d Ã±Ã¥Ãª') then
                         saveConfig()
                     end
                     imgui.PopItemWidth()
                     
                     imgui.Dummy(imgui.ImVec2(0, 10))
                     imgui.SetCursorPosX(100)
-                    imgui.FText(u8"Óâåäîìëåíèÿ î äîìàõ:", 18)
+                    imgui.FText(u8"Ã“Ã¢Ã¥Ã¤Ã®Ã¬Ã«Ã¥Ã­Ã¨Ã¿ Ã® Ã¤Ã®Ã¬Ã Ãµ:", 18)
                     imgui.SameLine(300)
                     if imgui.Checkbox('##house_enabled', cef_houseEnabled) then saveConfig() end
                     
                     imgui.Dummy(imgui.ImVec2(0, 10))
                     imgui.SetCursorPosX(100)
-                    imgui.FText(u8"Óâåäîìëåíèÿ î áèçíåñàõ:", 18)
+                    imgui.FText(u8"Ã“Ã¢Ã¥Ã¤Ã®Ã¬Ã«Ã¥Ã­Ã¨Ã¿ Ã® Ã¡Ã¨Ã§Ã­Ã¥Ã±Ã Ãµ:", 18)
                     imgui.SameLine(300)
                     if imgui.Checkbox('##business_enabled', cef_businessEnabled) then saveConfig() end
                     
                     imgui.Dummy(imgui.ImVec2(0, 20))
                     imgui.SetCursorPosX(100)
-                    imgui.FText(u8"Ñòàòóñ:", 18)
+                    imgui.FText(u8"Ã‘Ã²Ã Ã²Ã³Ã±:", 18)
                     imgui.SetCursorPosX(120)
-                    imgui.FText(u8"Äîìà: " .. (cef_houseEnabled[0] and "{1DFF00}ÂÊË" or "{FF0000}ÂÛÊË"), 18)
+                    imgui.FText(u8"Ã„Ã®Ã¬Ã : " .. (cef_houseEnabled[0] and "{1DFF00}Ã‚ÃŠÃ‹" or "{FF0000}Ã‚Ã›ÃŠÃ‹"), 18)
                     imgui.SetCursorPosX(120)
-                    imgui.FText(u8"Áèçíåñû: " .. (cef_businessEnabled[0] and "{1DFF00}ÂÊË" or "{FF0000}ÂÛÊË"), 18)
+                    imgui.FText(u8"ÃÃ¨Ã§Ã­Ã¥Ã±Ã»: " .. (cef_businessEnabled[0] and "{1DFF00}Ã‚ÃŠÃ‹" or "{FF0000}Ã‚Ã›ÃŠÃ‹"), 18)
                     imgui.PopFont()
 
                 elseif menu[0] == 7 then
@@ -1306,22 +1324,22 @@ function main()
                     imgui.SetCursorPosX(150)
                     imgui.FText(u8"Helper Lovli for ARZ", 18)
                     imgui.SetCursorPosX(150)
-                    imgui.FText(u8"Âåğñèÿ: 2.1.0", 18)
+                    imgui.FText(u8"Ã‚Ã¥Ã°Ã±Ã¨Ã¿: 2.1.0", 18)
                     imgui.SetCursorPosX(150)
-                    imgui.FText(u8"Àâòîğû: idea - bossov, realization - slardar", 18)
+                    imgui.FText(u8"Ã€Ã¢Ã²Ã®Ã°Ã»: idea - bossov, realization - slardar", 18)
                     imgui.Dummy(imgui.ImVec2(0, 20))
                     imgui.SetCursorPosX(150)
-                    imgui.FText(u8"Êîìàíäû:", 18)
+                    imgui.FText(u8"ÃŠÃ®Ã¬Ã Ã­Ã¤Ã»:", 18)
                     imgui.SetCursorPosX(170)
-                    imgui.FText(u8"{ButtonActive}/" .. settings.activationCommand .. "{Text} - îòêğûòü ìåíş", 18)
+                    imgui.FText(u8"{ButtonActive}/" .. settings.activationCommand .. u8"{Text} - Ã®Ã²ÃªÃ°Ã»Ã²Ã¼ Ã¬Ã¥Ã­Ã¾", 18)
                     imgui.SetCursorPosX(170)
                     imgui.FText(u8"{ButtonActive}/adr{Text} - /adrenaline", 18)
                     imgui.SetCursorPosX(170)
-                    imgui.FText(u8"{ButtonActive}/marker{Text} - ïîñòàâèòü ìàğêåğ", 18)
+                    imgui.FText(u8"{ButtonActive}/marker{Text} - Ã¯Ã®Ã±Ã²Ã Ã¢Ã¨Ã²Ã¼ Ã¬Ã Ã°ÃªÃ¥Ã°", 18)
                     imgui.SetCursorPosX(170)
-                    imgui.FText(u8"{ButtonActive}/delmarker{Text} - óäàëèòü ìàğêåğ", 18)
+                    imgui.FText(u8"{ButtonActive}/delmarker{Text} - Ã³Ã¤Ã Ã«Ã¨Ã²Ã¼ Ã¬Ã Ã°ÃªÃ¥Ã°", 18)
                     imgui.SetCursorPosX(170)
-                    imgui.FText(u8"{ButtonActive}/ontr /captcha{Text} - òğåíèíã", 18)
+                    imgui.FText(u8"{ButtonActive}/ontr /captcha{Text} - Ã²Ã°Ã¥Ã­Ã¨Ã­Ã£", 18)
                     imgui.PopFont()
                 end
 
@@ -1329,12 +1347,12 @@ function main()
 
                 imgui.Separator()
                 imgui.BeginGroup()
-                if imgui.ActiveButton(u8" Ñîõğàíèòü", imgui.ImVec2(130, 28)) then
+                if imgui.ActiveButton(u8" Ã‘Ã®ÃµÃ°Ã Ã­Ã¨Ã²Ã¼", imgui.ImVec2(130, 28)) then
                     saveConfig()
-                    sms('Íàñòğîéêè ñîõğàíåíû')
+                    sms('ÃÃ Ã±Ã²Ã°Ã®Ã©ÃªÃ¨ Ã±Ã®ÃµÃ°Ã Ã­Ã¥Ã­Ã»')
                 end
                 imgui.SameLine()
-                if imgui.Button(u8" Çàêğûòü", imgui.ImVec2(130, 28)) then
+                if imgui.Button(u8" Ã‡Ã ÃªÃ°Ã»Ã²Ã¼", imgui.ImVec2(130, 28)) then
                     window[0] = false
                     imgui.Process = false
                 end
@@ -1344,10 +1362,10 @@ function main()
             end
 
             if show_cmd_popup[0] then
-                imgui.OpenPopup(u8"Âûáîğ êîìàíäû")
+                imgui.OpenPopup(u8"Ã‚Ã»Ã¡Ã®Ã° ÃªÃ®Ã¬Ã Ã­Ã¤Ã»")
                 imgui.SetNextWindowSize(imgui.ImVec2(300, 350), imgui.Cond.Always)
-                if imgui.BeginPopupModal(u8"Âûáîğ êîìàíäû", show_cmd_popup, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoResize + imgui.WindowFlags.NoCollapse) then
-                    imgui.FText(u8"Âûáåğèòå êîìàíäó:", 18)
+                if imgui.BeginPopupModal(u8"Ã‚Ã»Ã¡Ã®Ã° ÃªÃ®Ã¬Ã Ã­Ã¤Ã»", show_cmd_popup, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoResize + imgui.WindowFlags.NoCollapse) then
+                    imgui.FText(u8"Ã‚Ã»Ã¡Ã¥Ã°Ã¨Ã²Ã¥ ÃªÃ®Ã¬Ã Ã­Ã¤Ã³:", 18)
                     imgui.Separator()
                     
                     imgui.BeginColorChild('cmd_list', imgui.ImVec2(280, 250), true)
@@ -1375,7 +1393,7 @@ function main()
                     imgui.EndColorChild()
                     
                     imgui.Separator()
-                    if imgui.Button(u8" Îòìåíà", imgui.ImVec2(250, 30)) then
+                    if imgui.Button(u8" ÃÃ²Ã¬Ã¥Ã­Ã ", imgui.ImVec2(250, 30)) then
                         show_cmd_popup[0] = false
                         selecting_cmd_type = nil
                         selecting_cmd_index = nil
@@ -1395,9 +1413,9 @@ function main()
             if result then
                 if button == 1 then
                     if input == captcha..'0' then
-                        sms('{1DFF00}Âåğíî! [' .. string.format("%.3f", os.clock() - captime) .. ' ñåê]')
+                        sms('{1DFF00}Ã‚Ã¥Ã°Ã­Ã®! [' .. string.format("%.3f", os.clock() - captime) .. ' Ã±Ã¥Ãª]')
                     else
-                        sms('{FF0000}Íåâåğíî! [' .. string.format("%.3f", os.clock() - captime) .. ' ñåê]')
+                        sms('{FF0000}ÃÃ¥Ã¢Ã¥Ã°Ã­Ã®! [' .. string.format("%.3f", os.clock() - captime) .. ' Ã±Ã¥Ãª]')
                     end
                 end
                 removeTextdraws()
@@ -1407,10 +1425,10 @@ function main()
         end
 
         if timer_enabled[0] then
-            if sampIsDialogActive() and sampGetDialogCaption():find('Ïğîâåğêà íà ğîáîòà') then
+            if sampIsDialogActive() and sampGetDialogCaption():find('ÃÃ°Ã®Ã¢Ã¥Ã°ÃªÃ  Ã­Ã  Ã°Ã®Ã¡Ã®Ã²Ã ') then
                 ttime = os.clock()
                 while sampIsDialogActive() do wait(0) end
-                sms('Êàï÷à ââåäåíà çà ' .. string.sub(tostring(os.clock() - ttime), 1, 5) .. ' ñåê')
+                sms('ÃŠÃ Ã¯Ã·Ã  Ã¢Ã¢Ã¥Ã¤Ã¥Ã­Ã  Ã§Ã  ' .. string.sub(tostring(os.clock() - ttime), 1, 5) .. ' Ã±Ã¥Ãª')
             end
         end
 
